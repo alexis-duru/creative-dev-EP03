@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.b1 {
+  background-color: #a0a042;
+}
+
+.b2 {
+  background-color: #7ec2c7;
+}
+
+img {
+  object-fit: cover;
+  height: 600px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */
